@@ -5,6 +5,8 @@
 }
 .main-h1{
     border: 2px solid ;
+    max-width: 100%;
+    height: auto;
     margin-top: 4rem;
     text-align: center;
     font-size: 110px;
@@ -17,6 +19,9 @@
     background-clip: text;
     color: transparent;
     background-blend-mode: multiply;
+    background-position:0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px ;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -25,6 +30,55 @@
 .body{
  background: #020024;
 background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);   
-    background-size: ;
+
     
+}
+
+@media (max-width:850px) {
+    .main-h1{
+    border: 2px solid ;
+    max-width: 70%;
+    height: auto;
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 55px;
+    font-weight: bolder;
+    font-style: italic;
+    background-image: url("../img/img16.jpg");
+    background-image: url("../img/img13.jpg");
+    background-size: contain ;
+    background-repeat: repeat;
+    background-clip: text;
+    color: transparent;
+    background-blend-mode: multiply;
+    background-position:0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px ;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+ 
+}
+}
+@media (max-width:500px) {
+    .main-h1{
+    border: 2px solid ;
+    max-width: 60%;
+    height: auto;
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: italic;
+    background-image: url("../img/img16.jpg");
+    background-image: url("../img/img13.jpg");
+    background-size: contain ;
+    background-repeat: repeat;
+    background-clip: text;
+    color: transparent;
+    background-blend-mode: multiply;
+    background-position:0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px ;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 }
